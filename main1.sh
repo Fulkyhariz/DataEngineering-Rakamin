@@ -6,8 +6,8 @@ name_of_directory=data1
 filename_excel=daily_market_price.xlsx
 source_dir=./local/data/market
 
-source_path= "$source_dir/$filename_excel"
-target_path= "$path/$filename_excel"
+source_path=$source_dir/$filename_excel
+target_path=$path/$filename_excel
 
 log=$path/log_file.txt
 
