@@ -17,8 +17,8 @@ if [[ -d $path ]]; then
   if [[ ! -e $log ]]; then
     printf "Log File" >> $log
   fi
-  date > $log
-  echo " File Moved Successfully" >> $log
+  date >> $log
+  echo "File Moved Successfully" >> $log
 else
   echo "$name_of_directory Directory Not Exists!"
   mkdir -p $path
